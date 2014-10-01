@@ -11,6 +11,12 @@ end
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
+group :test do
+  gem "rspec-rails"
+  gem "factory_girl_rails"
+  gem 'ffaker'
+end
+
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 
