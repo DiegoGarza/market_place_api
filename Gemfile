@@ -37,10 +37,23 @@ group :test do
   gem "shoulda-matchers"
 end
 
-gem 'devise'
+gem "devise"
 
+# Sabisu gems
 gem 'sabisu_rails', github: "IcaliaLabs/sabisu-rails"
 gem 'compass-rails'
 gem 'furatto'
 gem 'font-awesome-rails'
 gem 'simple_form'
+
+# Use ActiveModel has_secure_password
+# gem 'bcrypt-ruby', '~> 3.1.2'
+
+# Use unicorn as the app server
+# gem 'unicorn'
+
+# Use Capistrano for deployment
+# gem 'capistrano', group: :development
+
+# Use debugger
+# gem 'debugger', group: [:development, :test]

@@ -1,8 +1,8 @@
-require 'rails_helper'
+require 'spec_helper'
 
-RSpec.describe Api::V1::SessionsController, :type => :controller do
+describe Api::V1::SessionsController do
 
-	describe "POST #create" do
+  describe "POST #create" do
 
     before(:each) do
       @user = FactoryGirl.create :user
@@ -50,4 +50,6 @@ RSpec.describe Api::V1::SessionsController, :type => :controller do
     it { should respond_with 204 }
 
   end
+
+
 end
